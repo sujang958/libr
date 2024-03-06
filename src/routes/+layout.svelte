@@ -2,6 +2,6 @@
 	import './styles.css';
 </script>
 
-<div id="app">
+<div id="app" class="font-pretendard">
 	<slot />
 </div>
