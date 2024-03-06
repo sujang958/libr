@@ -1,0 +1,795 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "libr",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+        "lint": "prettier --check .",
+        "format": "prettier --write ."
+      },
+      "devDependencies": {
+        "@fontsource/fira-mono": "^4.5.10",
+        "@neoconfetti/svelte": "^1.0.0",
+        "@sveltejs/adapter-auto": "^3.0.0",
+        "@sveltejs/kit": "^2.0.0",
+        "@sveltejs/vite-plugin-svelte": "^3.0.0",
+        "prettier": "^3.1.1",
+        "prettier-plugin-svelte": "^3.1.2",
+        "svelte": "^4.2.7",
+        "svelte-check": "^3.6.0",
+        "tslib": "^2.4.1",
+        "typescript": "^5.0.0",
+        "vite": "^5.0.3"
+      },
+      "type": "module"
+    },
+    "prefix": "/Users/chosonghun/Documents/projects/libr"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/chosonghun/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/chosonghun/Documents/projects/libr/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/chosonghun/Documents/projects/libr",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier/3.2.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier",
+      "rawSpec": "^3.1.1"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/3.2.5",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier-plugin-svelte/3.2.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier-plugin-svelte",
+      "rawSpec": "^3.1.2"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/3.2.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.6.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.4.1"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.6.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "10 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/3.2.2",
+    "size": 287546,
+    "status": "started"
+  },
+  "11 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/tslib/2.6.2",
+    "size": 15967,
+    "status": "started"
+  },
+  "12 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/prettier/3.2.5",
+    "size": 2160605,
+    "status": "started"
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/3.6.6",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^3.6.0"
+    }
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/3.6.6",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.6.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "16 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/3.2.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "17 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte-check/3.6.6",
+    "size": 1456620,
+    "status": "started"
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/vite-plugin-svelte/3.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/vite-plugin-svelte",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/vite-plugin-svelte/3.0.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "20 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@sveltejs/vite-plugin-svelte/3.0.2",
+    "size": 34062,
+    "status": "started"
+  },
+  "21 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@fontsource/fira-mono/4.5.10",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@fontsource/fira-mono",
+      "rawSpec": "^4.5.10"
+    }
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@fontsource/fira-mono/4.5.10",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/vite-plugin-svelte/3.0.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/kit/2.5.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/kit",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/kit/2.5.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "26 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@sveltejs/kit/2.5.2",
+    "size": 209836,
+    "status": "started"
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/4.2.12",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^4.2.7"
+    }
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/4.2.12",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/kit/2.5.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "30 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte/4.2.12",
+    "size": 603495,
+    "status": "started"
+  },
+  "31 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@fontsource/fira-mono/4.5.10",
+    "size": 958588,
+    "status": "started"
+  },
+  "32 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vite/5.1.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vite",
+      "rawSpec": "^5.0.3"
+    }
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vite/5.1.5",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/3.6.6",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@fontsource/fira-mono/4.5.10",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "36 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/vite/5.1.5",
+    "size": 828309,
+    "status": "started"
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/4.2.12",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/3.2.5",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vite/5.1.5",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "40 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@neoconfetti/svelte/1.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@neoconfetti/svelte",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@neoconfetti/svelte/1.0.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "42 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/5.3.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "44 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-auto/3.1.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/adapter-auto",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/3.1.1",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "46 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/5.3.3",
+    "wanted": {
+      "dependentId": "/svelte-check/3.6.6",
+      "name": "typescript",
+      "rawSpec": "^5.0.3"
+    }
+  },
+  "47 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/picocolors/1.0.0",
+    "wanted": {
+      "dependentId": "/svelte-check/3.6.6",
+      "name": "picocolors",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "48 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/picocolors/1.0.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "49 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/import-fresh/3.3.0",
+    "wanted": {
+      "dependentId": "/svelte-check/3.6.6",
+      "name": "import-fresh",
+      "rawSpec": "^3.2.1"
+    }
+  },
+  "50 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-fresh/3.3.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "51 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sade/1.8.1",
+    "wanted": {
+      "dependentId": "/svelte-check/3.6.6",
+      "name": "sade",
+      "rawSpec": "^1.7.4"
+    }
+  },
+  "52 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sade/1.8.1",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "53 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/kleur/4.1.5",
+    "wanted": {
+      "dependentId": "/@sveltejs/vite-plugin-svelte/3.0.2",
+      "name": "kleur",
+      "rawSpec": "^4.1.5"
+    }
+  },
+  "54 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/kleur/4.1.5",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "55 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@sveltejs/vite-plugin-svelte/3.0.2",
+      "name": "debug",
+      "rawSpec": "^4.3.4"
+    }
+  },
+  "56 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "57 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vitefu/0.2.5",
+    "wanted": {
+      "dependentId": "/@sveltejs/vite-plugin-svelte/3.0.2",
+      "name": "vitefu",
+      "rawSpec": "^0.2.5"
+    }
+  },
+  "58 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vitefu/0.2.5",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "59 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fast-glob/3.3.2",
+    "wanted": {
+      "dependentId": "/svelte-check/3.6.6",
+      "name": "fast-glob",
+      "rawSpec": "^3.2.7"
+    }
+  },
+  "60 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fast-glob/3.3.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "61 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chokidar/3.6.0",
+    "wanted": {
+      "dependentId": "/svelte-check/3.6.6",
+      "name": "chokidar",
+      "rawSpec": "^3.4.1"
+    }
+  },
+  "62 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chokidar/3.6.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "63 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "size": 5761919,
+    "status": "started"
+  },
+  "64 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/magic-string/0.30.8",
+    "wanted": {
+      "dependentId": "/@sveltejs/vite-plugin-svelte/3.0.2",
+      "name": "magic-string",
+      "rawSpec": "^0.30.5"
+    }
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/magic-string/0.30.8",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "66 debug pnpm:fetching-progress": {
+    "downloaded": 16384,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "67 debug pnpm:fetching-progress": {
+    "downloaded": 32768,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "68 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/import-fresh/3.3.0",
+    "size": 2332,
+    "status": "started"
+  },
+  "69 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/cookie/0.6.0",
+    "wanted": {
+      "dependentId": "/@sveltejs/kit/2.5.2",
+      "name": "@types/cookie",
+      "rawSpec": "^0.6.0"
+    }
+  },
+  "70 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/cookie/0.6.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "71 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-hmr/0.15.3",
+    "wanted": {
+      "dependentId": "/@sveltejs/vite-plugin-svelte/3.0.2",
+      "name": "svelte-hmr",
+      "rawSpec": "^0.15.3"
+    }
+  },
+  "72 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-hmr/0.15.3",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "73 debug pnpm:fetching-progress": {
+    "downloaded": 49152,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "74 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "size": 13252,
+    "status": "started"
+  },
+  "75 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/sade/1.8.1",
+    "size": 10449,
+    "status": "started"
+  },
+  "76 debug pnpm:fetching-progress": {
+    "downloaded": 65536,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "77 debug pnpm:fetching-progress": {
+    "downloaded": 81920,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "78 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-fresh/3.3.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "79 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sade/1.8.1",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "80 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "81 debug pnpm:fetching-progress": {
+    "downloaded": 98304,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "82 debug pnpm:fetching-progress": {
+    "downloaded": 114688,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "83 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/vitefu/0.2.5",
+    "size": 6065,
+    "status": "started"
+  },
+  "84 debug pnpm:fetching-progress": {
+    "downloaded": 131072,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "85 debug pnpm:fetching-progress": {
+    "downloaded": 147456,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "86 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@jridgewell/trace-mapping/0.3.25",
+    "wanted": {
+      "dependentId": "/svelte-check/3.6.6",
+      "name": "@jridgewell/trace-mapping",
+      "rawSpec": "^0.3.17"
+    }
+  },
+  "87 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@jridgewell/trace-mapping/0.3.25",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "88 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/3.1.1",
+    "size": 3228,
+    "status": "started"
+  },
+  "89 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/fast-glob/3.3.2",
+    "size": 24955,
+    "status": "started"
+  },
+  "90 debug pnpm:fetching-progress": {
+    "downloaded": 163840,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "91 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/chokidar/3.6.0",
+    "size": 26452,
+    "status": "started"
+  },
+  "92 debug pnpm:fetching-progress": {
+    "downloaded": 180224,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "93 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vitefu/0.2.5",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "94 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cookie/0.6.0",
+    "wanted": {
+      "dependentId": "/@sveltejs/kit/2.5.2",
+      "name": "cookie",
+      "rawSpec": "^0.6.0"
+    }
+  },
+  "95 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie/0.6.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "96 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/kleur/4.1.5",
+    "wanted": {
+      "dependentId": "/@sveltejs/kit/2.5.2",
+      "name": "kleur",
+      "rawSpec": "^4.1.5"
+    }
+  },
+  "97 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/magic-string/0.30.8",
+    "wanted": {
+      "dependentId": "/@sveltejs/kit/2.5.2",
+      "name": "magic-string",
+      "rawSpec": "^0.30.5"
+    }
+  },
+  "98 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/3.1.1",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "99 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sade/1.8.1",
+    "wanted": {
+      "dependentId": "/@sveltejs/kit/2.5.2",
+      "name": "sade",
+      "rawSpec": "^1.8.1"
+    }
+  },
+  "100 debug pnpm:fetching-progress": {
+    "downloaded": 196608,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "101 debug pnpm:fetching-progress": {
+    "downloaded": 212992,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "102 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fast-glob/3.3.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "103 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chokidar/3.6.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "104 debug pnpm:fetching-progress": {
+    "downloaded": 227571,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "105 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/magic-string/0.30.8",
+    "size": 84577,
+    "status": "started"
+  },
+  "106 debug pnpm:fetching-progress": {
+    "downloaded": 243955,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "107 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/vite-plugin-svelte-inspector/2.0.0",
+    "wanted": {
+      "dependentId": "/@sveltejs/vite-plugin-svelte/3.0.2",
+      "name": "@sveltejs/vite-plugin-svelte-inspector",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "108 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/vite-plugin-svelte-inspector/2.0.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "109 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte-hmr/0.15.3",
+    "size": 26044,
+    "status": "started"
+  },
+  "110 debug pnpm:fetching-progress": {
+    "downloaded": 260339,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "111 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-hmr/0.15.3",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "112 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/devalue/4.3.2",
+    "wanted": {
+      "dependentId": "/@sveltejs/kit/2.5.2",
+      "name": "devalue",
+      "rawSpec": "^4.3.2"
+    }
+  },
+  "113 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/devalue/4.3.2",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  },
+  "114 debug pnpm:fetching-progress": {
+    "downloaded": 276723,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "115 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/magic-string/0.30.8",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "fetched"
+  },
+  "116 debug pnpm:fetching-progress": {
+    "downloaded": 293107,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "117 debug pnpm:fetching-progress": {
+    "downloaded": 309491,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "118 debug pnpm:fetching-progress": {
+    "downloaded": 325875,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "119 debug pnpm:fetching-progress": {
+    "downloaded": 342259,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "120 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@types/cookie/0.6.0",
+    "size": 3534,
+    "status": "started"
+  },
+  "121 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/5.1.3",
+    "wanted": {
+      "dependentId": "/svelte-check/3.6.6",
+      "name": "svelte-preprocess",
+      "rawSpec": "^5.1.3"
+    }
+  },
+  "122 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/svelte-preprocess/5.1.3: wanted: {\"pnpm\":\"^8.0.0\"} (current: {\"node\":\"v18.16.0\",\"pnpm\":\"6.11.0\"})",
+    "prefix": "/Users/chosonghun/Documents/projects/libr"
+  },
+  "123 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/svelte-preprocess/5.1.3",
+    "wanted": {
+      "pnpm": "^8.0.0"
+    },
+    "current": {
+      "node": "v18.16.0",
+      "pnpm": "6.11.0"
+    },
+    "err": {
+      "name": "Error",
+      "message": "Unsupported engine for registry.npmjs.org/svelte-preprocess/5.1.3: wanted: {\"pnpm\":\"^8.0.0\"} (current: {\"node\":\"v18.16.0\",\"pnpm\":\"6.11.0\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "Error: Unsupported engine for registry.npmjs.org/svelte-preprocess/5.1.3: wanted: {\"pnpm\":\"^8.0.0\"} (current: {\"node\":\"v18.16.0\",\"pnpm\":\"6.11.0\"})\n    at Object.checkEngine [as default] (/Users/chosonghun/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:35213:16)\n    at checkPackage (/Users/chosonghun/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:35357:99)\n    at Object.packageIsInstallable [as default] (/Users/chosonghun/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:35327:20)\n    at resolveDependency (/Users/chosonghun/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:110715:81)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async resolveDependenciesOfDependency (/Users/chosonghun/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:110452:39)\n    at async Promise.all (index 6)\n    at async resolveDependencies (/Users/chosonghun/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:110422:29)\n    at async resolveChildren (/Users/chosonghun/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:110484:24)\n    at async Promise.all (index 3)"
+    }
+  },
+  "124 debug pnpm:fetching-progress": {
+    "downloaded": 358643,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "125 debug pnpm:fetching-progress": {
+    "downloaded": 375027,
+    "packageId": "registry.npmjs.org/typescript/5.3.3",
+    "status": "in_progress"
+  },
+  "126 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/import-meta-resolve/4.0.0",
+    "wanted": {
+      "dependentId": "/@sveltejs/kit/2.5.2",
+      "name": "import-meta-resolve",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "127 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-meta-resolve/4.0.0",
+    "requester": "/Users/chosonghun/Documents/projects/libr",
+    "status": "resolved"
+  }
+}
